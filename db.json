@@ -1,0 +1,22 @@
+{
+    "PatientInfo": [
+      { "id": 1,
+        "title": "title",
+        "maritalStatus": "maritalStatus",
+        "firstName": "firstName",
+        "lastName": "lastName",
+        "DOB": "DOB",
+        "gender": "gender",
+        "bloodgroup": "bloodgroup",
+        "genotype": "genotype",
+        "emailaddress": "emailaddress",
+        "phoneNumber": "phoneNumber",
+        "timeIn": "timeIn",
+        "dateIn": "dateIn"
+    }
+    ],
+    "SignIn": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
