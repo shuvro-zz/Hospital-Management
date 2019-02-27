@@ -2,6 +2,7 @@
   "PatientInfo": [
     {
       "id": 1,
+      "hospNo": "hospNo",
       "title": "title",
       "maritalStatus": "maritalStatus",
       "firstName": "firstName",
@@ -15,7 +16,7 @@
       "timeIn": "timeIn",
       "dateIn": "dateIn"
     },
-    {
+    { "hospNo": "001",
       "title": "Mrs",
       "maritalStatus": "married",
       "firstName": "Debby",

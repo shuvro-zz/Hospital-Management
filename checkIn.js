@@ -3,6 +3,7 @@ $(document).ready(function() {
       $("form").submit(function(event) {
         event.preventDefault();
         var formData = {
+          hospNo: $("#hospNo").val(),
           title: $("#title").val(),
           maritalStatus: $("#maritalStatus").val(),
           firstName: $("#firstName").val(),
