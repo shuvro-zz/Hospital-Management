@@ -25,6 +25,83 @@
   <body>
 
 
+<div class="container">
+        <h1>Patient's Check in</h1>
+            
+        <div class ="jumbotron">
+            <h3>Patient's Details</h3>
+            <form id="ajax-form" action="http://localhost:3000/patients">
+
+            <div class="row">
+                <div class="col">
+                    <label for="title">Title (Miss/Mr./Mrs./Dr. etc.)</label>
+                    <input id="title" type="text" class="form-control" placeholder="Patient's title" required>
+                </div>
+                <div class="col">
+                        <label for="maritalStatus">Marital Status</label>
+                        <select id="maritalStatus" class= "form-control" required>
+                            <option value="married">Married</option>
+                            <option value="single">Single</option>
+                        </select>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" type="text" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" type="text" class="form-control" placeholder="Last name" required>
+                </div>
+            </div>
+                          
+
+            <div class="row">
+                    <div class="col">
+                        <label for="DOB">Date of Birth</label>
+                        <input id="DOB" type="text" class="form-control form-control-sm" placeholder="Date of Birth" required>
+                    </div>
+                    <div class="col">
+                        <label for="gender">Gender</label>
+                        <select id="gender" class= "form-control form-control-sm" required>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                            </select>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                        <div class="col">
+                            <label for="bloodgroup">Blood Group</label>
+                            <input id="bloodgroup" type="text" class="form-control form-control-sm" placeholder="Patient's Blood Group" required>
+                        </div>
+                        <div class="col">
+                            <label for="genotype">Patient's Genotype</label>
+                            <input id="genotype" type="text" class="form-control form-control-sm" placeholder="Patient's Genotype" required>
+                        </div>
+                </div>
+
+
+                <div class="row">
+                        <div class="col">
+                            <label for="emailaddress">Patient's Email Address</label>
+                            <input id="email" type="email" class="form-control form-control-sm" placeholder="Enter Email" required>
+                        </div>
+                        <div class="col">
+                            <label for="phoneNumber">Patient's Phone Number</label>
+                            <input id="phoneNumber" type="number" class="form-control form-control-sm" placeholder="Patient's Phone Number" required>
+                        </div>
+                </div>
+
+
+            <button type="submit" class="btn btn-secondary my-2" id="submit" >Upload</button>
+
+            </form>
 
 
 
@@ -43,7 +120,11 @@
 
 
 
-    
+
+
+
+
+</div>
     <script src="jquery.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
