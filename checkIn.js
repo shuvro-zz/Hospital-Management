@@ -41,9 +41,9 @@ $(document).ready(function() {
           });
           function addToTable(data){
             for(var i = 0; i<PatientInfo.length; i++){
-                $("#tabVal").after("<tr id="newRow"></tr>");
+                $("#tabVal").append("<tr id='newRow'></tr>");
                 for(var j = 0; j<PatientInfo.i.length; j++){
-                    $("#newRow").within("<th>PatientInfo[i][j]</th>")
+                    $("#newRow").append("<th>PatientInfo[i][j]</th>")
                 }
             }
           }
