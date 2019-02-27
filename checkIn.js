@@ -23,6 +23,7 @@ $(document).ready(function() {
           data: formData,
           success: function(data) {
             alert("Patient Checked in successfully!");
+            addToTable;
           }
         })
           .fail(function(data) {
@@ -37,6 +38,23 @@ $(document).ready(function() {
               );
             }
           });
+          function addToTable(data){
+            for(var i = 0; i<PatientInfo.length; i++){
+                $("#tabVal").after("<tr id="newRow"></tr>");
+                for(var j = 0; j<PatientInfo.i.length; j++){
+                    $("#newRow").within("<th>PatientInfo[i][j]</th>")
+                }
+            }
+          }
+
+
+
+
+
+
+
+
+
       });
     });
   
