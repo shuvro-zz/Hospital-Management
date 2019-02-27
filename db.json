@@ -1,22 +1,43 @@
 {
-    "PatientInfo": [
-      { "id": 1,
-        "title": "title",
-        "maritalStatus": "maritalStatus",
-        "firstName": "firstName",
-        "lastName": "lastName",
-        "DOB": "DOB",
-        "gender": "gender",
-        "bloodgroup": "bloodgroup",
-        "genotype": "genotype",
-        "emailaddress": "emailaddress",
-        "phoneNumber": "phoneNumber",
-        "timeIn": "timeIn",
-        "dateIn": "dateIn"
+  "PatientInfo": [
+    {
+      "id": 1,
+      "title": "title",
+      "maritalStatus": "maritalStatus",
+      "firstName": "firstName",
+      "lastName": "lastName",
+      "DOB": "DOB",
+      "gender": "gender",
+      "bloodgroup": "bloodgroup",
+      "genotype": "genotype",
+      "emailaddress": "emailaddress",
+      "phoneNumber": "phoneNumber",
+      "timeIn": "timeIn",
+      "dateIn": "dateIn"
+    },
+    {
+      "title": "Mrs",
+      "maritalStatus": "married",
+      "firstName": "Debby",
+      "lastName": "Collins",
+      "DOB": "1992-02-12",
+      "gender": "female",
+      "bloodgroup": "O+",
+      "genotype": "AA",
+      "phoneNumber": "8066589871",
+      "timeIn": "03:43",
+      "dateIn": "2019-02-27",
+      "id": 2
     }
-    ],
-    "SignIn": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  ],
+  "SignIn": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
