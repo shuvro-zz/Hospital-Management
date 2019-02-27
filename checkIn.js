@@ -19,7 +19,7 @@ $(document).ready(function() {
   
         $.ajax({
           type: "POST",
-          url: "http://localhost:3000/patients",
+          url: "http://localhost:3000/PatientInfo",
           data: formData,
           success: function(data) {
             alert("Patient Checked in successfully!");
