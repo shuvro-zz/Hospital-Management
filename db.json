@@ -120,6 +120,21 @@
       "timeIn": "00:59",
       "dateIn": "2019-12-31",
       "id": 8
+    },
+    {
+      "hospNo": "001",
+      "title": "Mrs",
+      "maritalStatus": "married",
+      "firstName": "Debby",
+      "lastName": "Collins",
+      "DOB": "1993-03-11",
+      "gender": "female",
+      "bloodgroup": "O+",
+      "genotype": "AA",
+      "phoneNumber": "8066589871",
+      "timeIn": "00:59",
+      "dateIn": "2019-12-31",
+      "id": 9
     }
   ],
   "users": [
