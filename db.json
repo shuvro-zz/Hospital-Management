@@ -30,11 +30,11 @@
       "id": 2
     }
   ],
-  "SignIn": [
+  "users": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "stafflastName": "stafflastName",
+      "staffId": "staffId",
+      "password": "password"
     }
   ],
   "profile": {
