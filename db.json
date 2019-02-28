@@ -1,126 +1,6 @@
 {
   "PatientInfo": [
-    {
-      "id": 1,
-      "hospNo": "hospNo",
-      "title": "title",
-      "maritalStatus": "maritalStatus",
-      "firstName": "firstName",
-      "lastName": "lastName",
-      "DOB": "DOB",
-      "gender": "gender",
-      "bloodgroup": "bloodgroup",
-      "genotype": "genotype",
-      "emailaddress": "emailaddress",
-      "phoneNumber": "phoneNumber",
-      "timeIn": "timeIn",
-      "dateIn": "dateIn"
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1992-02-12",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "03:43",
-      "dateIn": "2019-02-27",
-      "id": 2
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "00:59",
-      "dateIn": "2019-12-31",
-      "id": 3
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "00:59",
-      "dateIn": "2019-12-31",
-      "id": 4
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "00:59",
-      "dateIn": "2019-12-31",
-      "id": 5
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "00:59",
-      "dateIn": "2019-12-31",
-      "id": 6
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "00:59",
-      "dateIn": "2019-12-31",
-      "id": 7
-    },
-    {
-      "hospNo": "001",
-      "title": "Mrs",
-      "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "phoneNumber": "8066589871",
-      "timeIn": "00:59",
-      "dateIn": "2019-12-31",
-      "id": 8
-    },
+    
     {
       "hospNo": "001",
       "title": "Mrs",
@@ -139,9 +19,24 @@
   ],
   "users": [
     {
-      "stafflastName": "stafflastName",
-      "staffId": "staffId",
-      "password": "password"
+      "stafflastName": "Ezea",
+      "staffId": "ME511",
+      "password": "medx1"
+    },
+    {
+      "stafflastName": "Expo",
+      "staffId": "ME512",
+      "password": "medx2"
+    },
+    {
+      "stafflastName": "Fadipe",
+      "staffId": "ME513",
+      "password": "medx3"
+    },
+    {
+      "stafflastName": "Wey",
+      "staffId": "ME514",
+      "password": "medx4"
     }
   ],
   "profile": {

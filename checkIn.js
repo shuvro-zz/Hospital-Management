@@ -24,10 +24,9 @@ $(document).ready(function() {
         data: formData,
         success: function(data) {
           alert("Patient Checked in successfully!");
-          addToTable;
-          formData = "";
         }
-      }).fail(function(data) {
+      })
+      .fail(function(data) {
         $("#detailList").removeClass("success");
         $("#detailList").addClass("error");
 
@@ -40,23 +39,7 @@ $(document).ready(function() {
         }
       });
 
-      $.ajax({
-        type: "GET",
-        url: "http://localhost:3000/PatientInfo",
-        success: function(data) {
-          alert("Addind to table!");
-          addToTable;
-        }
-      });
-
-      function addToTable(data) {
-        for (var i = 0; i < PatientInfo.length; i++) {
-          $("#tabVal").append("<tr id='newRow'></tr>");
-          for (var j = 0; j < PatientInfo.i.length; j++) {
-            $("#newRow").append("<th>PatientInfo[i][j]</th>");
-          }
-        }
-      }
+      
     });
   });
 });
