@@ -1,20 +1,36 @@
 {
   "PatientInfo": [
-    
     {
       "hospNo": "001",
-      "title": "Mrs",
+      "title": "Mr.",
       "maritalStatus": "married",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-11",
+      "firstName": "Samuel",
+      "lastName": "Ubani",
+      "DOB": "2019-01-31",
       "gender": "female",
       "bloodgroup": "O+",
       "genotype": "AA",
+      "emailaddress": "samuelubani@gmail.com",
       "phoneNumber": "8066589871",
-      "timeIn": "00:59",
+      "timeIn": "12:59",
       "dateIn": "2019-12-31",
-      "id": 9
+      "id": 1
+    },
+    {
+      "hospNo": "005",
+      "title": "Miss",
+      "maritalStatus": "single",
+      "firstName": "Debby",
+      "lastName": "Collins",
+      "DOB": "1993-04-09",
+      "gender": "female",
+      "bloodgroup": "O+",
+      "genotype": "AA",
+      "emailaddress": "debbycollins@gmail.com",
+      "phoneNumber": "8066589871",
+      "timeIn": "15:04",
+      "dateIn": "2019-02-28",
+      "id": 4
     }
   ],
   "users": [
