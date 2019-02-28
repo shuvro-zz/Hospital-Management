@@ -39,7 +39,7 @@ $(document).ready(function() {
       var editBtn = $(
         `<a href=http://localhost:3000/PatientInfo/${
           info.id
-        } type="button" id="edit" class="btn btn-secondary my-2">Edit</a>`
+        } type="button" id="edit" class="btn btn-secondary my-2" data-toggle="modal" data-target=".bd-example-modal-xl">Edit</a>`
       );
       var deleteBtn = $(
         `<a href=http://localhost:3000/PatientInfo/${
@@ -61,6 +61,35 @@ $(document).ready(function() {
           success: function(data) {
             location.reload(true);
             alert("Delete Successful");
+          }
+        });
+      });
+
+      $(editBtn).click(function(e) {
+        e.preventDefault();
+        var url = $(this).attr("href");
+        $.ajax({
+          type: "GET",
+          url,
+          success: function(data) {
+            console.log(data);
+            alert("success");
+
+            $.each(data, function(info, value) {
+              $("input[type='text']").val(value);
+            });
+            $("#save").click(function(value) {
+              var url = $(this).attr("href");
+              $.ajax({
+                type: "PUT",
+                url,
+                data: formData,
+                success: function(data) {
+                  alert("Patient Updated!");
+                  window.location.assign("table.html");
+                }
+              });
+            });
           }
         });
       });

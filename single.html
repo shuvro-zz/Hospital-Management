@@ -57,7 +57,7 @@
 
     <div class="jumbotron">
         
-    <form id="ajax-form" action="http://localhost:3000/patients">
+    <form id="forM" action="http://localhost:3000/patients">
           
     <div class="form-group mx-sm-3 mb-2">
         <label for="phoneNumber" class="sr-only">Patient's No.</label>
@@ -68,8 +68,41 @@
         </form>
       </div>
 
-      <div id="singP"></div>
-    </div>
+          
+    <div class="table-responsive">
+            <table class="table" id="singP">
+              <div class="table-responsive">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col" id="hospNo">Hosp. No.</th>
+                    <th scope="col" id="maritalStatus">Marital Status</th>
+                    <th scope="col" id="title">Title</th>
+                    <th scope="col" id="firstName">First Name</th>
+                    <th scope="col" id="lastName">Last Name</th>
+                    <th scope="col" id="DOB">D.O.B</th>
+                    <th scope="col" id="gender">Gender</th>
+                    <th scope="col" id="bloodgroup">Blood Group</th>
+                    <th scope="col" id="genotype">Genotype</th>
+                    <th scope="col" id="email">Email</th>
+                    <th scope="col" id="phoneNumber">Phone No.</th>
+                    <th scope="col" id="timeIn">Time</th>
+                    <th scope="col" id="dateIn">Date</th>
+                    <th scope="col" id="edit"></th>
+                    <th scope="col" id="delete"></th>
+                  </tr>
+                </thead>
+              </div>
+      
+              <div class="table-responsive">
+                <tbody id="tabVal">
+                  
+                  
+                </tbody>
+              </div>
+            </table>
+          </div>
+      </div>
+
     <script src="jquery.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -81,6 +114,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src=".js"></script>
+    <script src="single.js"></script>
   </body>
 </html>
