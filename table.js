@@ -37,10 +37,14 @@ $(document).ready(function() {
       tr.append(dateIn);
 
       var editBtn = $(
-        `<a href=http://localhost:3000/PatientInfo/${info.id} type="button" id="edit" class="btn btn-secondary my-2">Edit</a>`
+        `<a href=http://localhost:3000/PatientInfo/${
+          info.id
+        } type="button" id="edit" class="btn btn-secondary my-2">Edit</a>`
       );
       var deleteBtn = $(
-        `<a href=http://localhost:3000/PatientInfo/${info.id} type="button" id="delete" class="btn btn-danger my-2">Delete</a>`
+        `<a href=http://localhost:3000/PatientInfo/${
+          info.id
+        } type="button" id="delete" class="btn btn-danger my-2">Delete</a>`
       );
 
       tr.append(editBtn);
@@ -49,8 +53,8 @@ $(document).ready(function() {
       $("#tabVal").append(tr);
 
       $(deleteBtn).click(function(e) {
-          e.preventDefault();
-          var url = $(this).attr("href")
+        e.preventDefault();
+        var url = $(this).attr("href");
         $.ajax({
           type: "DELETE",
           url,
@@ -60,11 +64,6 @@ $(document).ready(function() {
           }
         });
       });
-
-     
-
-
-
     }
   });
 });

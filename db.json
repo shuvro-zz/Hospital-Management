@@ -1,5 +1,43 @@
 {
-  "PatientInfo": [],
+  "PatientInfo": [
+    {
+      "hospNo": "2802",
+      "title": "Mr.",
+      "maritalStatus": "married",
+      "firstName": "Kolade",
+      "lastName": "Lawal",
+      "DOB": "1995-03-09",
+      "gender": "female",
+      "bloodgroup": "O+",
+      "genotype": "AS",
+      "emailaddress": "kolade.dada@saroafrica.com",
+      "phoneNumber": "8066589871",
+      "timeIn": "09:45",
+      "dateIn": "2019-02-28",
+      "id": 6
+    },
+    {
+      "hospNo": "1573",
+      "title": "Mrs",
+      "maritalStatus": "married",
+      "firstName": "Toyin",
+      "lastName": "Lawal",
+      "DOB": "2001-03-08",
+      "gender": "female",
+      "bloodgroup": "O-",
+      "genotype": "AS",
+      "emailaddress": "kolade.dada@saroafrica.com",
+      "phoneNumber": "8066589871",
+      "timeIn": "09:03",
+      "dateIn": "2019-02-28",
+      "id": 7
+    },
+    {
+      "hospNo": "2185",
+      "phoneNumber": "08066589871",
+      "id": 8
+    }
+  ],
   "users": [
     {
       "stafflastName": "Ezea",
