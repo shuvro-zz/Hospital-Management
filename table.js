@@ -55,8 +55,8 @@ $(document).ready(function() {
           type: "DELETE",
           url,
           success: function(data) {
-            alert("Successful Delete");
             location.reload(true);
+            alert("Delete Successful");
           }
         });
       });

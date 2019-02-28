@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("form").submit(function(event) {
       event.preventDefault();
       var formData = {
-        hospNo: $("#hospNo").val(),
+        hospNo: Math.floor((Math.random() * ((9999 - 1000) + 1)) + 1000),
         title: $("#title").val(),
         maritalStatus: $("#maritalStatus").val(),
         firstName: $("#firstName").val(),
