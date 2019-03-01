@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="title  icon" type="image/png" href="images/icon.png" />
+
+    <title>Patient Detail</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-md navbar-light bg-dark">
+          <a href="#" class="nabvar-brand"><i class="fas fa-hospital text-info fa-2x"></i></a>
+          <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target=""><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-between">
+              <ul class = "navbar-nav">
+                      <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="table.html">All Patients</a></li>
+                      <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="checkIn.html">Patient Check-in</a></li>
+              </ul>
+  
+              <form class="form-inline">
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                          <div class="input-group-append">
+                              <button type="button" class="btn"><i class="fas fa-search text-muted text-secondary"></i> </fa-search></button>
+  
+                          </div>
+                      </div>
+                  </form>
+              
+  
+      </div>
+  
+  </nav>
+
+
+
+
+    <div class="container">
+      <h1>Single Patient</h1>
+
+    <div class="jumbotron">
+        
+    <form id="forM" action="http://localhost:3000/patients">
+          
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="phoneNumber" class="sr-only">Patient's No.</label>
+        <input type="number" class="form-control" id="phoneNumber" placeholder="Patients Phone">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2" id="singlePatient">Submit</button>
+  
+        </form>
+      </div>
+
+          
+    <div class="table-responsive">
+            <table class="table" id="singP">
+              <div class="table-responsive">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col" id="hospNo">Hosp. No.</th>
+                    <th scope="col" id="maritalStatus">Marital Status</th>
+                    <th scope="col" id="title">Title</th>
+                    <th scope="col" id="firstName">First Name</th>
+                    <th scope="col" id="lastName">Last Name</th>
+                    <th scope="col" id="DOB">D.O.B</th>
+                    <th scope="col" id="gender">Gender</th>
+                    <th scope="col" id="bloodgroup">Blood Group</th>
+                    <th scope="col" id="genotype">Genotype</th>
+                    <th scope="col" id="email">Email</th>
+                    <th scope="col" id="phoneNumber">Phone No.</th>
+                    <th scope="col" id="timeIn">Time</th>
+                    <th scope="col" id="dateIn">Date</th>
+                    <th scope="col" id="edit"></th>
+                    <th scope="col" id="delete"></th>
+                  </tr>
+                </thead>
+              </div>
+      
+              <div class="table-responsive">
+                <tbody id="tabVal">
+                  
+                  
+                </tbody>
+              </div>
+            </table>
+          </div>
+      </div>
+
+    <script src="jquery.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="single.js"></script>
+  </body>
+</html>
