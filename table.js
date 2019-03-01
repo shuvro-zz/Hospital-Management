@@ -75,23 +75,27 @@ $(document).ready(function() {
             console.log(data);
             alert("success");
 
-            $.each(data, function(info, value) {
-              $("input[type='text']").val(value);
+            $.each(data, function(data) {
+
+              $("input[type='text']").val(`${info.id}`);
             });
-            $("#save").click(function(value) {
-              var url = $(this).attr("href");
-              $.ajax({
-                type: "PUT",
-                url,
-                data: formData,
-                success: function(data) {
-                  alert("Patient Updated!");
-                  window.location.assign("table.html");
-                }
-              });
-            });
+           
           }
         });
+
+        $("#save").click(function(value) {
+            var url = $(this).attr("href");
+            $.ajax({
+              type: "PUT",
+              url,
+              data: $(data).serialize(),
+              success: function(data) {
+                alert("Patient Updated!");
+                window.location.assign("table.html");
+              }
+            });
+          });
+
       });
     }
   });

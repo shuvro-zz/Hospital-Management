@@ -71,7 +71,9 @@ $(document).ready(function() {
                 var phoneNumber = $(`<td>${data[0].phoneNumber}</td>`);
                 var timeIn = $(`<td>${data[0].timeIn}</td>`);
                 var dateIn = $(`<td>${data[0].dateIn}</td>`);
-          
+
+                var tr = $(`<tr id='newRow'></tr>`);
+
                 tr.append(hospNo);
                 tr.append(title);
                 tr.append(maritalStatus);
@@ -85,11 +87,8 @@ $(document).ready(function() {
                 tr.append(phoneNumber);
                 tr.append(timeIn);
                 tr.append(dateIn);
-          
+
                 $("#tabVal").append(tr);
-
-                var tr = $(`<tr id='newRow'></tr>`);
-
                 }
               });
 
