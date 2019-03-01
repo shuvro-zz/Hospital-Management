@@ -71,32 +71,79 @@ $(document).ready(function() {
         $.ajax({
           type: "GET",
           url,
-          success: function(data) {
-            console.log(data);
-            alert("success");
-
-            $.each(data, function(data) {
-
-              $("input[type='text']").val(`${info.id}`);
-            });
-           
+          success: function(info) {
+            
+            
+            $("input[type='text']#title").val(`${info.title}`);
+            $("input[type='text']#maritalStatus").val(`${info.maritalStatus}`);
+            $("input[type='text']#firstName").val(`${info.firstName}`);
+            $("input[type='text']#lastName").val(`${info.lastName}`);
+            $("input[type='text']#DOB").val(`${info.DOB}`);
+            $("input[type='text']#gender").val(`${info.gender}`);
+            $("input[type='text']#bloodgroup").val(`${info.bloodgroup}`);
+            $("input[type='text']#genotype").val(`${info.genotype}`);
+            $("input[type='text']#emailaddress").val(`${info.emailaddress}`);
+            $("input[type='text']#phoneNumber").val(`${info.phoneNumber}`);
+            $("input[type='text']#timeIn").val(`${info.timeIn}`);
+            $("input[type='text']#dateIn").val(`${info.dateIn}`);
+            $("input[type='text']#hospNo").val(`${info.hospNo}`);
+            localStorage.userId = `${info.id}`
           }
         });
-
-        $("#save").click(function(value) {
-            var url = $(this).attr("href");
-            $.ajax({
-              type: "PUT",
-              url,
-              data: $(data).serialize(),
-              success: function(data) {
-                alert("Patient Updated!");
-                window.location.assign("table.html");
-              }
-            });
-          });
-
       });
     }
+
+    $("#ajax-form").submit(function(e) {
+      e.preventDefault();
+      //var url = $("#ajax-form").attr("action");
+
+
+      var title = $("input[type='text']#title").val();
+      var maritalStatus = $("input[type='text']#maritalStatus").val();
+      var firstName = $("input[type='text']#firstName").val();
+      var lastName = $("input[type='text']#lastName").val();
+      var DOB = $("input[type='text']#DOB").val();
+      var gender = $("input[type='text']#gender").val();
+      var bloodgroup = $("input[type='text']#bloodgroup").val();
+      var genotype = $("input[type='text']#genotype").val();
+      var emailaddress = $("input[type='text']#emailaddress").val();
+      var phoneNumber = $("input[type='text']#phoneNumber").val();
+      var timeIn = $("input[type='text']#timeIn").val();
+      var dateIn = $("input[type='text']#dateIn").val();
+      var hospNo = $("input[type='text']#hospNo").val();
+
+      var modalObject = {
+        title,
+        maritalStatus,
+        firstName,
+        lastName,
+        DOB,
+        gender,
+        bloodgroup,
+        genotype,
+        emailaddress,
+        phoneNumber,
+        timeIn,
+        dateIn,
+        hospNo
+      };
+
+      var userId = localStorage.userId;
+      
+      $.ajax({
+        type: "PUT",
+        url: `http://localhost:3000/patients/${userId}`,
+        data: modalObject,
+        success: function() {
+          alert("Patient Updated!");
+          window.location.assign("table.html");
+        }
+      });
+
+
+
+    
+    });
+
   });
 });

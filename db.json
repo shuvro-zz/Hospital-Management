@@ -1,22 +1,6 @@
 {
   "PatientInfo": [
     {
-      "hospNo": "1388",
-      "title": "Dr.",
-      "maritalStatus": "married",
-      "firstName": "Ernest",
-      "lastName": "Odior",
-      "DOB": "1979-03-08",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "emailaddress": "ernestordior@gmail.com",
-      "phoneNumber": "08023036920",
-      "timeIn": "00:07",
-      "dateIn": "2019-03-01",
-      "id": 1
-    },
-    {
       "hospNo": "2987",
       "title": "Mr.",
       "maritalStatus": "married",
