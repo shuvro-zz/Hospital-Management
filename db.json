@@ -1,38 +1,6 @@
 {
   "PatientInfo": [
     {
-      "hospNo": "1388",
-      "title": "Dr.",
-      "maritalStatus": "married",
-      "firstName": "Ernest",
-      "lastName": "Odior",
-      "DOB": "1979-03-08",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AA",
-      "emailaddress": "ernestordior@gmail.com",
-      "phoneNumber": "08023036920",
-      "timeIn": "00:07",
-      "dateIn": "2019-03-01",
-      "id": 1
-    },
-    {
-      "hospNo": "2987",
-      "title": "Mr.",
-      "maritalStatus": "married",
-      "firstName": "Adebola",
-      "lastName": "Olufemi",
-      "DOB": "1989-11-07",
-      "gender": "female",
-      "bloodgroup": "O-",
-      "genotype": "AS",
-      "emailaddress": "adebolaolufemi@gmail.com",
-      "phoneNumber": "09066589871",
-      "timeIn": "13:30",
-      "dateIn": "2019-03-01",
-      "id": 2
-    },
-    {
       "hospNo": "7909",
       "title": "Miss",
       "maritalStatus": "single",
@@ -95,6 +63,22 @@
       "timeIn": "21:30",
       "dateIn": "2019-02-28",
       "id": 6
+    },
+    {
+      "hospNo": "1096",
+      "title": "Miss",
+      "maritalStatus": "single",
+      "firstName": "Chika",
+      "lastName": "Wey",
+      "DOB": "2001-08-17",
+      "gender": "female",
+      "bloodgroup": "O+",
+      "genotype": "AA",
+      "emailaddress": "chika.wey@gmail.com",
+      "phoneNumber": "08166589871",
+      "timeIn": "21:06",
+      "dateIn": "2019-03-01",
+      "id": 7
     }
   ],
   "users": [
