@@ -85,7 +85,9 @@ $(document).ready(function() {
             $("input[type='text']#timeIn").val(`${info.timeIn}`);
             $("input[type='text']#dateIn").val(`${info.dateIn}`);
             $("input[type='text']#hospNo").val(`${info.hospNo}`);
-            localStorage.userId = `${info.id}`;
+            $("#save").attr("value", info.id);
+           
+
           }
         });
       });
@@ -93,7 +95,7 @@ $(document).ready(function() {
 
     $("#ajax-form").submit(function(e) {
       e.preventDefault();
-      //var url = $("#ajax-form").attr("action");
+      var id = $("#save").attr("value");     
 
       var title = $("input[type='text']#title").val();
       var maritalStatus = $("input[type='text']#maritalStatus").val();
@@ -127,9 +129,12 @@ $(document).ready(function() {
 
       $.ajax({
         type: "PUT",
-        url: `http://localhost:3000/patients/${info.id}`,
+        url: `http://localhost:3000/PatientInfo/${
+          id
+        }`,
         data: modalObject,
         success: function() {
+          console.log(modalObject);
           alert("Patient Updated!");
           window.location.assign("table.html");
         }

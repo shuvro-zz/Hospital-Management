@@ -1,41 +1,8 @@
 {
   "PatientInfo": [
     {
-      "hospNo": "7909",
-      "title": "Miss",
-      "maritalStatus": "single",
-      "firstName": "Debby",
-      "lastName": "Collins",
-      "DOB": "1993-03-24",
-      "gender": "female",
-      "bloodgroup": "O+",
-      "genotype": "AS",
-      "emailaddress": "debbycollins@gmail.com",
-      "phoneNumber": "07023154294",
-      "timeIn": "09:45",
-      "dateIn": "2019-02-15",
-      "id": 3
-    },
-    {
-      "hospNo": "9873",
-      "title": "Mr.",
-      "maritalStatus": "married",
-      "firstName": "Christian",
-      "lastName": "Ubani",
-      "DOB": "1979-03-15",
-      "gender": "female",
-      "bloodgroup": "O-",
-      "genotype": "AA",
-      "emailaddress": "christianubani@gmail.com",
-      "phoneNumber": "07050923476",
-      "timeIn": "00:30",
-      "dateIn": "2019-03-01",
-      "id": 4
-    },
-    {
-      "hospNo": "6378",
       "title": "Chief",
-      "maritalStatus": "married",
+      "maritalStatus": "Single",
       "firstName": "Nnamdi",
       "lastName": "Azikiwe",
       "DOB": "1948-03-11",
@@ -46,12 +13,12 @@
       "phoneNumber": "08191817654",
       "timeIn": "17:40",
       "dateIn": "2019-02-22",
+      "hospNo": "6378",
       "id": 5
     },
     {
-      "hospNo": "5919",
       "title": "Mr.",
-      "maritalStatus": "single",
+      "maritalStatus": "Married",
       "firstName": "Olaoluwa",
       "lastName": "David",
       "DOB": "1990-11-18",
@@ -62,12 +29,12 @@
       "phoneNumber": "09067358392",
       "timeIn": "21:30",
       "dateIn": "2019-02-28",
+      "hospNo": "5919",
       "id": 6
     },
     {
-      "hospNo": "1096",
-      "title": "Miss",
-      "maritalStatus": "single",
+      "title": "Mrs",
+      "maritalStatus": "Married",
       "firstName": "Chika",
       "lastName": "Wey",
       "DOB": "2001-08-17",
@@ -78,7 +45,24 @@
       "phoneNumber": "08166589871",
       "timeIn": "21:06",
       "dateIn": "2019-03-01",
+      "hospNo": "1096",
       "id": 7
+    },
+    {
+      "hospNo": "2275",
+      "title": "Mr.",
+      "maritalStatus": "married",
+      "firstName": "Tolu",
+      "lastName": "Adesina",
+      "DOB": "1991-03-06",
+      "gender": "female",
+      "bloodgroup": "O+",
+      "genotype": "AA",
+      "emailaddress": "toluadesina@gmail.com",
+      "phoneNumber": "09054321698",
+      "timeIn": "12:01",
+      "dateIn": "2019-03-04",
+      "id": 8
     }
   ],
   "users": [
