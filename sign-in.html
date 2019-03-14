@@ -28,30 +28,31 @@
             
             <div class ="jumbotron">
                 <h3>Sign-In</h3>
-                <form id="sign-in-form">
+                <form id="signInForm" method="">
     
                     <div class="form-group">
                         <label for="stafflastName">Staff Last Name</label>
-                        <input type="text" class="form-control" id="stafflastName" placeholder="staff last name" required>
+                        <input type="text" class="form-control" id="stafflastName" value="" placeholder="staff last name" required>
                     </div>
                     <div class="form-group">
                         <label for="staffId">Staff ID No.</label>
-                        <input type="text" class="form-control" id="staffId" placeholder="staffId" required>
+                        <input type="text" class="form-control" id="staffId" value="" placeholder="staffId" required>
                     </div>
                     <div class="form-group">
                         <label for="password">Staff Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        <input type="password" class="form-control" id="password" value="" placeholder="Password" required>
                     </div>
     
                     
     
-                    <button type="submit" class="btn btn-secondary" id="signin" href="index.html">Sign-in</button>
+                    <input type="submit" class="btn btn-secondary" id="signin" value="Sign In">
     
                 </form>
             </div>
     
             <div></div>    
         <script src="jquery.js"></script>
+        <script src="signIn.js"></script>
         <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -62,7 +63,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
          crossorigin="anonymous"
         ></script>
-        <script src="signIn.js"></script>
+        
       
     </body>
 </html>
