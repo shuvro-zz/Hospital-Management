@@ -55,6 +55,7 @@ $(document).ready(function() {
       $(deleteBtn).click(function(e) {
         e.preventDefault();
         var url = $(this).attr("href");
+       if( confirm("Are you sure?")){
         $.ajax({
           type: "DELETE",
           url,
@@ -63,6 +64,7 @@ $(document).ready(function() {
             alert("Delete Successful");
           }
         });
+      }
       });
 
       $(editBtn).click(function(e) {

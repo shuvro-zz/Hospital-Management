@@ -17,22 +17,6 @@
       "id": 5
     },
     {
-      "title": "Mr.",
-      "maritalStatus": "Married",
-      "firstName": "Olaoluwa",
-      "lastName": "David",
-      "DOB": "1990-11-18",
-      "gender": "male",
-      "bloodgroup": "O+",
-      "genotype": "AS",
-      "emailaddress": "olaoluwadavid@gmail.com",
-      "phoneNumber": "09067358392",
-      "timeIn": "21:30",
-      "dateIn": "2019-02-28",
-      "hospNo": "5919",
-      "id": 6
-    },
-    {
       "title": "Mrs",
       "maritalStatus": "Married",
       "firstName": "Chika",
